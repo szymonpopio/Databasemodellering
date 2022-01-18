@@ -1,0 +1,16 @@
+body {
+    background-color: white;
+}
+.popup,
+.popupList {
+    display: none;
+}
+.popupList {
+    background-color:teal;
+}
+.closerList {
+    background-color: tomato;
+}
+li {
+    list-style-type: none;
+}

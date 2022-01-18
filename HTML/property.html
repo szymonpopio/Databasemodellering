@@ -1,0 +1,47 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../master.css">
+	<title>Property</title>
+
+	<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-firestore.js"></script>
+	<script src="../JS/firebase-handler.js"></script>
+	<script src="../JS/property.js" defer></script>
+	<script src="../JS/popup.js" defer></script>
+</head>
+
+<body>
+	<div class="popup">
+        <p>HEI</p>
+        <p class="closer">X</p>
+    </div>
+	<form>
+		<div class="form_div">
+			<div class="person_register">
+				<label for="postnummer">Postnummer</label><br>
+				<input type="text" id="postnummer" value=""><br>
+				<label for="poststed">Poststed</label><br>
+				<input type="text" id="poststed" value=""><br>
+				<label for="gatenavn">Gatenavn</label><br>
+				<input type="text" id="gatenavn" value=""><br>
+				<label for="gatenummer">Gatenummer</label><br>
+				<input type="text" id="gatenummer" value=""><br>
+				<label for="eiendomsnummer">Eiendomsnummer</label><br>
+				<input type="text" id="eiendomsnummer" value=""><br>
+				<label for="eier">Eier</label><br>
+				<input type="text" id="eier" value=""><br>
+			</div>
+		</div>
+		<input type="submit" value="add">
+	</form>
+	<button><a href="index.html">Person Register</a></button>
+	<button><a href="vehicle.html">Kjøretøy Register</a></button>
+	<button><a href="property.html">Eiendom Register</a></button>
+	<button><a href="marriage.html">Ekteskap Register</a></button>
+	<ul></ul>
+	<div class="popupList"></div>
+</body>
